@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Meadow",
+            "type": "coreclr",
+            "request": "launch",           
+            "preLaunchTask": "build-Meadow",
+            "program": "${workspaceFolder}/Meadow/bin/Debug/net7.0/Meadow.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Meadow",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Bug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Bug",
+            "program": "${workspaceFolder}/Bug/bin/Debug/net7.0/Bug.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Bug",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+		{
+            "name": "Grass",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Grass",
+            "program": "${workspaceFolder}/Bug/bin/Debug/net7.0/Grass.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Grass",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+}
